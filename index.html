@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BLISS — Орден Спокойствия · Throne and Liberty</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23060608'/%3E%3Ctext x='16' y='23' font-family='serif' font-size='20' fill='%23d4b06a' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
+<title>HAPPINESS — PvP Гильдия · Throne and Liberty</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23060608'/%3E%3Ctext x='16' y='23' font-family='serif' font-size='20' fill='%23d4b06a' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;600;800;900&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -97,13 +97,13 @@
 
   /* ---------- hero ---------- */
   #hero { flex-direction:column; justify-content:center; text-align:center; }
-  #hero .h-title { font-family:'Unbounded'; font-weight:900; font-size:clamp(70px, 16vw, 240px);
+  #hero .h-title { font-family:'Unbounded'; font-weight:900; font-size:clamp(50px, 12vw, 200px);
     line-height:.9; letter-spacing:.02em;
     background:linear-gradient(180deg, #f5f0e6 20%, var(--gold) 75%, #6b5a33 100%);
     -webkit-background-clip:text; background-clip:text; color:transparent;
     text-shadow:0 0 90px rgba(212,176,106,.25); }
   #hero .h-sub { font-family:'Cormorant Garamond'; font-style:italic; font-size:clamp(20px,3vw,34px);
-    color:rgba(201,201,207,.85); margin-top:30px; font-weight:400; }
+    color:rgba(201,201,207,.85); margin-top:30px; font-weight:400; max-width: 800px; margin-inline: auto; }
   #hero .h-tag { margin-top:22px; font-family:'JetBrains Mono'; font-size:10px; letter-spacing:.5em; color:rgba(212,176,106,.75); }
   #hero .h-meta { position:absolute; bottom:44px; left:0; right:0; display:flex; justify-content:center; gap:56px; row-gap:14px; flex-wrap:wrap; padding:0 20px; }
   #hero .h-meta div { font-family:'JetBrains Mono'; font-size:10px; letter-spacing:.25em; color:rgba(201,201,207,.4); }
@@ -259,7 +259,7 @@
 <body>
 
 <div id="loader">
-  <div class="sigil">B</div>
+  <div class="sigil">H</div>
   <div class="bar"><i id="bar-fill"></i></div>
   <div class="pct" id="pct">0%</div>
 </div>
@@ -271,17 +271,17 @@
 <div class="film"></div>
 
 <nav>
-  <a href="#hero" class="brand magnet" style="text-decoration:none">BLISS</a>
+  <a href="#hero" class="brand magnet" style="text-decoration:none">HAPPINESS</a>
   <div class="links">
     <a href="#credo" class="magnet">Кредо</a>
-    <a href="#chronicle" class="magnet">Хроника</a>
+    <a href="#chronicle" class="magnet">Успехи</a>
     <a href="#library" class="magnet">Библиотека</a>
     <a href="#join" class="magnet">Вступить</a>
   </div>
 </nav>
 
 <div class="rail">
-  <span class="rl">ORDO · QUIETIS</span>
+  <span class="rl">HAPPINESS · PVP</span>
   <div class="rline"></div>
   <span class="rl" style="color:var(--gold)">MMXXVI</span>
 </div>
@@ -291,16 +291,16 @@
   <!-- ================= HERO ================= -->
   <section id="hero" class="chapter">
     <div class="eyebrow reveal on" style="justify-content:center; margin-bottom:40px">
-      THRONE AND LIBERTY · PVE GUILD
+      THRONE AND LIBERTY · PVP GUILD
     </div>
-    <h1 class="h-title">BLISS</h1>
-    <p class="h-sub reveal on d1">Островок спокойствия посреди мира, охваченного гонкой.</p>
-    <p class="h-tag reveal on d2">ИССЛЕДУЙ · ФАРМИ · ИЗУЧАЙ</p>
+    <h1 class="h-title">HAPPINESS</h1>
+    <p class="h-sub reveal on d1">Скилл и координация решают больше, чем бездумный зерг.</p>
+    <p class="h-tag reveal on d2">ПВП · ОСАДЫ · КОНСТ-ПАТИ</p>
     <div class="drag-hint">⟲ ПОТЯНИ АРТЕФАКТ — ОН ЖИВОЙ</div>
     <div class="h-meta">
-      <div>ИГРОКОВ — <b>50+</b></div>
-      <div>РЕЙДОВ / НЕДЕЛЮ — <b>7</b></div>
-      <div>ТОКСИЧНОСТИ — <b>0.00%</b></div>
+      <div>МЕСТО НА СЕРВЕРЕ — <b>21</b></div>
+      <div>РЕЗУЛЬТАТ СДЕЛАН — <b>1 ПАЧКОЙ</b></div>
+      <div>ФОРМАТ — <b>PVP / КП</b></div>
       <div>БАЗА БИЛДОВ — <b>https://tl-build.ru/profile/lympen</b></div>
     </div>
   </section>
@@ -310,27 +310,27 @@
     <div class="ghost" style="position:absolute; top:6%; right:-2%; font-size:clamp(90px,18vw,280px)">I</div>
     <div class="reveal">
       <div class="eyebrow">Глава I — Кредо</div>
-      <h2 class="big" style="margin-top:30px">Мы верим, что игра —<br>это <em>искусство неспешности.</em></h2>
-      <p class="lead">Bliss — PvE-гильдия для тех, кто устал от криков в войсе и дедлайнов в календаре. Мы закрываем контент уверенно, но без надрыва — и разбираем каждую механику до последней шестерёнки.</p>
+      <h2 class="big" style="margin-top:30px">Мы доказываем, что скилл важнее<br><em>бездумного зерга.</em></h2>
+      <p class="lead">Happiness — это PvP-ориентированная гильдия. Если ты ищешь коллектив, где ценят результат, но не превращают игру во вторую работу — тебе к нам.</p>
     </div>
     <div class="cards">
       <div class="card tilt reveal d1">
         <span class="glyph">⌘</span>
         <div class="num">01</div>
-        <h3>РЕЙДЫ БЕЗ ТОКСИЧНОСТИ</h3>
-        <p>Вайп — не повод для крика, а повод для разбора. Наши рейд-лидеры объясняют механики дважды, а бьют по столу — никогда. Атмосфера ближе к ужину с друзьями, чем к спортивной раздевалке.</p>
+        <h3>ВЕСЬ PVP-КОНТЕНТ</h3>
+        <p>От локальных стычек за споты до масштабных осад. Мы активно участвуем во всех PvP активностях игры и всегда ищем новые вызовы для нашего состава.</p>
       </div>
       <div class="card tilt reveal d2">
         <span class="glyph">✦</span>
         <div class="num">02</div>
-        <h3>ГАЙДЫ И МЕХАНИКИ</h3>
-        <p>Каждую неделю — разборы билдов, боссов и экономики. Мы объясняем не только «что качать», но и «почему это работает», чтобы каждый понимал свою роль в группе на три хода вперёд.</p>
+        <h3>ФОРМИРОВАНИЕ КП</h3>
+        <p>Сейчас мы активно собираем и сыгрываем конст-пати. Мы готовы принять в свои ряды как сильных соло-игроков, так и уже полностью сыгранные группы.</p>
       </div>
       <div class="card tilt reveal d3">
         <span class="glyph">☉</span>
         <div class="num">03</div>
-        <h3>ЛЮДИ ПРЕЖДЕ ВСЕГО</h3>
-        <p>Лояльный онлайн: жизнь важнее игры. За каждым новичком закрепляется куратор. PvP — только по желанию. Мы строим гильдию, в которую хочется возвращаться, а не отчитываться.</p>
+        <h3>УДОБНАЯ ИНФРАСТРУКТУРА</h3>
+        <p>Для четкой координации и общения у нас работает собственный сайт, а также живое, активное сообщество ВКонтакте, где обсуждаются все важные вопросы.</p>
       </div>
     </div>
   </section>
@@ -339,24 +339,24 @@
   <section id="chronicle" class="chapter">
     <div class="split">
       <div class="reveal">
-        <div class="eyebrow">Глава II — Хроника</div>
-        <h2 class="big" style="margin-top:30px">Каждый рейд<br>вписан в <em>летопись.</em></h2>
-        <p class="lead">Мы ведём открытый журнал: киллы, вайпы, разборы ошибок и забавные моменты. Честная летопись вместо глянцевых скриншотов — потому что учатся на ошибках, а не на победных парадах.</p>
+        <div class="eyebrow">Глава II — Успехи</div>
+        <h2 class="big" style="margin-top:30px">Наши амбиции подкреплены<br><em>делом.</em></h2>
+        <p class="lead">На последней осаде мы заняли 21-е место на всем сервере, и сделали это силами всего одной пачки! Представь, на что мы будем способны, когда полностью укомплектуем состав.</p>
         <div class="stats">
-          <div class="stat"><b>32</b><span>рейдов записано</span></div>
-          <div class="stat"><b>49</b><span>мировых боссов</span></div>
-          <div class="stat"><b>93%</b><span>возвращаются</span></div>
+          <div class="stat"><b>21</b><span>место на сервере</span></div>
+          <div class="stat"><b>1</b><span>пачка в бою</span></div>
+          <div class="stat"><b>100%</b><span>заряженность на PvP</span></div>
         </div>
       </div>
       <div class="term reveal d2" id="term">
-        <div class="tline ok"><span class="ts">21:04</span><span class="msg">собран рейд-состав — 25/25</span></div>
-        <div class="tline ok"><span class="ts">21:07</span><span class="msg">вход: Дайгон · уровень сложности: 5</span></div>
-        <div class="tline"><span class="ts">21:12</span><span class="msg">фаза I пройдена · потерь: 4</span></div>
-        <div class="tline"><span class="ts">21:19</span><span class="msg">вайп на фазе II — разобраны позиции</span></div>
-        <div class="tline ok"><span class="ts">21:34</span><span class="msg">повторная попытка — босс повержен</span></div>
-        <div class="tline ok"><span class="ts">21:36</span><span class="msg">трофеи распределены по роллу</span></div>
-        <div class="tline"><span class="ts">21:41</span><span class="msg">запись летописи обновлена · скриншоты в архив</span></div>
-        <div class="tline"><span class="ts">21:45</span><span class="msg">голосовой канал: обсуждение билда танка</span></div>
+        <div class="tline ok"><span class="ts">21:04</span><span class="msg">сбор пачки на осаду — готовность 100%</span></div>
+        <div class="tline ok"><span class="ts">21:07</span><span class="msg">выдвижение к замку · координация в Discord</span></div>
+        <div class="tline"><span class="ts">21:12</span><span class="msg">стычка за передовую точку — враг отброшен</span></div>
+        <div class="tline"><span class="ts">21:19</span><span class="msg">внимание на фланги — перегруппировка сил</span></div>
+        <div class="tline ok"><span class="ts">21:34</span><span class="msg">прорыв защитных укреплений противника</span></div>
+        <div class="tline ok"><span class="ts">21:36</span><span class="msg">закрепление на 21-й позиции в рейтинге</span></div>
+        <div class="tline"><span class="ts">21:41</span><span class="msg">запись осады сохранена · скриншоты в архив</span></div>
+        <div class="tline"><span class="ts">21:45</span><span class="msg">голосовой канал: разбор ошибок и тактики</span></div>
         <span class="caret"></span>
       </div>
     </div>
@@ -429,29 +429,29 @@
   <!-- ================= PERKS ================= -->
   <section class="chapter" style="flex-direction:column; align-items:flex-start">
     <div class="reveal">
-      <div class="eyebrow">Глава IV — Привилегии</div>
-      <h2 class="big" style="margin-top:30px">Членство в гильдии —<br><em>это преимущества.</em></h2>
+      <div class="eyebrow">Глава IV — Привилегии и Правила</div>
+      <h2 class="big" style="margin-top:30px">Наш подход к КТА<br>и <em>правила.</em></h2>
     </div>
     <div class="perks reveal d1">
-      <div class="perk"><span class="pn">/ 01</span><span class="pt">ПАРТНЁРКА T&L</span>
-        <span class="pd">Эксклюзивные плюшки партнёрской программы Throne and Liberty, розыгрыши призов и ранние разборы контент-апдейтов — ещё до их выхода.</span></div>
-      <div class="perk"><span class="pn">/ 02</span><span class="pt">БАЗА TL-BUILD.RU</span>
-        <span class="pd">Единая база билдов и гайдов гильдии — открытая, актуальная и проверенная в бою. Знание не прячется в закрытых табличках.</span></div>
-      <div class="perk"><span class="pn">/ 03</span><span class="pt">PvP ПО ЖЕЛАНИЮ</span>
-        <span class="pd">Никто не тащит на арену против твоей воли. PvP в Bliss — внутренние турниры и весёлые катки для тех, кому интересно.</span></div>
-      <div class="perk"><span class="pn">/ 04</span><span class="pt">КУРАТОРСТВО</span>
-        <span class="pd">За каждым новичком закреплён наставник: прокачка, билд, первые данжи и объяснение механик без снисходительности.</span></div>
-      <div class="perk"><span class="pn">/ 05</span><span class="pt">ГИЛЬДИЙНАЯ КАЗНА</span>
-        <span class="pd">Общий банк, крафт и расходники для рейдов — на благо всех. Вступительный взнос: адекватность и чувство юмора.</span></div>
+      <div class="perk"><span class="pn">/ 01</span><span class="pt">БЕЗ ОБЯЗАЛОВКИ</span>
+        <span class="pd">Мы против жесткой рутины. В Happiness нет изнуряющих ежедневных КТА, из-за которых люди выгорают и бросают игру.</span></div>
+      <div class="perk"><span class="pn">/ 02</span><span class="pt">ОТВЕТСТВЕННОСТЬ</span>
+        <span class="pd">У нас есть правило: если во время гильдейского ивента ты находишься онлайн в игре — ты должен быть с нами. Это уважение к команде.</span></div>
+      <div class="perk"><span class="pn">/ 03</span><span class="pt">МИНИМУМ АКТИВНОСТИ</span>
+        <span class="pd">Минимальный порог активности для участия в жизни гильдии — присутствие хотя бы раз в неделю. Если играешь, играй с нами.</span></div>
+      <div class="perk"><span class="pn">/ 04</span><span class="pt">ЗАПАЛ НА PVP</span>
+        <span class="pd">Мы ищем адекватных, заряженных на PvP игроков, которые хотят побеждать в отличной компании и постоянно развивать свой скилл.</span></div>
+      <div class="perk"><span class="pn">/ 05</span><span class="pt">БАЗА ЗНАНИЙ</span>
+        <span class="pd">Доступ к единой базе билдов и гайдов гильдии (TL-BUILD.RU) — актуальной и проверенной в боях нашими КП.</span></div>
     </div>
   </section>
 
   <!-- ================= JOIN ================= -->
   <section id="join" class="chapter">
     <div class="eyebrow reveal on" style="justify-content:center">Финал — Твой ход</div>
-    <h2 class="h-title2 reveal on d1" style="margin-top:36px">Присоединяйся<br><em>к гильдии.</em></h2>
+    <h2 class="h-title2 reveal on d1" style="margin-top:36px">Готов ворваться в топ<br><em>вместе с нами?</em></h2>
     <p class="lead reveal on d2" style="margin:34px auto 0; text-align:center">
-      Анкета занимает три минуты. Мы отвечаем в течение дня — и встречаем новичков так, как хотели бы, чтобы встречали нас.
+      Мы ищем заряженных бойцов. Анкета занимает три минуты. Мы отвечаем в течение дня — и встречаем новичков так, как хотели бы, чтобы встречали нас.
     </p>
     <a href="https://discord.gg/mBpv9NNh" class="btn-magnet magnet reveal on d3" id="ctaBtn">
       ВСТУПИТЬ В DISCORD
@@ -460,7 +460,7 @@
   </section>
 
   <footer>
-    <span>© MMXXVI · BLISS GUILD</span>
+    <span>© MMXXVI · HAPPINESS GUILD</span>
     <div style="display:flex; gap:36px">
       <a href="https://tl-build.ru" class="magnet">TL-BUILD.RU</a>
       <a href="https://discord.gg/mBpv9NNh" class="magnet">DISCORD</a>
@@ -716,7 +716,7 @@ const termIo = new IntersectionObserver(es => {
 termIo.observe(document.getElementById('term'));
 
 /* ============ бегущая строка ============ */
-const marqItems = ['ИССЛЕДУЙ', 'ФАРМИ', 'РАЗБИРАЙ МЕХАНИКИ', 'БЕЗ ТОКСИЧНОСТИ', 'TL-BUILD.RU', 'PVE · THRONE AND LIBERTY', 'ОРДЕН СПОКОЙСТВИЯ'];
+const marqItems = ['ВЕСЬ PVP-КОНТЕНТ', 'ФОРМИРОВАНИЕ КП', 'МАСШТАБНЫЕ ОСАДЫ', 'БЕЗ ЖЕСТКИХ КТА', 'TL-BUILD.RU', 'PVP · THRONE AND LIBERTY', 'HAPPINESS'];
 const seq = marqItems.map(s => `<span>${s}<i>✦</i></span>`).join('');
 document.getElementById('marq-inner').innerHTML = seq + seq;
 
